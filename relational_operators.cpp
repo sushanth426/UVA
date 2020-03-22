@@ -9,8 +9,8 @@ int main(int argc, char **argv)
 		long long m, k;
 		cin >> m >> k;
 		if(m < k) {cout << "<" << endl;}
-		if(m > k) {cout << ">" << endl;}
-		if(m == k) {cout << "=" << endl;}
+		else if(m > k) {cout << ">" << endl;}
+		else (m == k) {cout << "=" << endl;}
 	}
 	return 0;
 }
